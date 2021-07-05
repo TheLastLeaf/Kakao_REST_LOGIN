@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component LANGUAGE_LEVEL="JDK_1_8" jdk="1.8" jdk_type="JavaSDK">
+	<output-test url="file://$MODULE_DIR$/target/test-classes"/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<testFolder url="file://$MODULE_DIR$/src/test/java"/>
+		<testFolder url="file://$MODULE_DIR$/src/test/resources"/>
+		<excludeFolder url="file://$MODULE_DIR$/target"/>
+	</contentEntry>
+	<lib name="javax.inject-1.jar" scope="COMPILE">
+		<srcroot url="file://$M2_REPO$/javax/inject/javax.inject/1/javax.inject-1-sources.jar"/>
+	</lib>
+	<lib name="servlet-api-2.5.jar" scope="COMPILE">
+		<srcroot url="file://$M2_REPO$/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar"/>
+	</lib>
+	<lib name="jsp-api-2.2.jar" scope="COMPILE">
+		<srcroot url="file://$M2_REPO$/javax/servlet/jsp/jsp-api/2.2/jsp-api-2.2-sources.jar"/>
+	</lib>
+	<lib name="jstl-1.2.jar" scope="COMPILE">
+		<srcroot url="file://$M2_REPO$/javax/servlet/jstl/1.2/jstl-1.2-sources.jar"/>
+	</lib>
+	<lib name="spring-context-5.3.7.jar" scope="COMPILE">
+		<srcroot url="file://$M2_REPO$/org/springframework/spring-context/5.3.7/spring-context-5.3.7-sources.jar"/>
+	</lib>
+	<lib name="spring-aop-5.3.7.jar" scope="COMPILE">
+		<srcroot url="file://$M2_REPO$/org/springframework/spring-aop/5.3.7/spring-aop-5.3.7-sources.jar"/>
+	</lib>
+	<lib name="spring-beans-5.3.7.jar" scope="COMPILE">
+		<srcroot url="file://$M2_REPO$/org/springframework/spring-beans/5.3.7/spring-beans-5.3.7-sources.jar"/>
+	</lib>
+	<lib name="spring-core-5.3.7.jar" scope="COMPILE">
+		<srcroot url="file://$M2_REPO$/org/springframework/spring-core/5.3.7/spring-core-5.3.7-sources.jar"/>
+	</lib>
+	<lib name="spring-jcl-5.3.7.jar" scope="COMPILE">
+		<srcroot url="file://$M2_REPO$/org/springframework/spring-jcl/5.3.7/spring-jcl-5.3.7-sources.jar"/>
+	</lib>
+	<lib name="spring-expression-5.3.7.jar" scope="COMPILE">
+		<srcroot url="file://$M2_REPO$/org/springframework/spring-expression/5.3.7/spring-expression-5.3.7-sources.jar"/>
+	</lib>
+	<lib name="spring-webmvc-5.3.7.jar" scope="COMPILE">
+		<srcroot url="file://$M2_REPO$/org/springframework/spring-webmvc/5.3.7/spring-webmvc-5.3.7-sources.jar"/>
+	</lib>
+	<lib name="spring-web-5.3.7.jar" scope="COMPILE">
+		<srcroot url="file://$M2_REPO$/org/springframework/spring-web/5.3.7/spring-web-5.3.7-sources.jar"/>
+	</lib>
+	<lib name="aspectjrt-1.9.6.jar" scope="COMPILE">
+		<srcroot url="file://$M2_REPO$/org/aspectj/aspectjrt/1.9.6/aspectjrt-1.9.6-sources.jar"/>
+	</lib>
+	<lib name="slf4j-api-1.7.31.jar" scope="COMPILE">
+		<srcroot url="file://$M2_REPO$/org/slf4j/slf4j-api/1.7.31/slf4j-api-1.7.31-sources.jar"/>
+	</lib>
+	<lib name="jcl-over-slf4j-1.7.31.jar" scope="COMPILE">
+		<srcroot url="file://$M2_REPO$/org/slf4j/jcl-over-slf4j/1.7.31/jcl-over-slf4j-1.7.31-sources.jar"/>
+	</lib>
+	<lib name="slf4j-log4j12-1.7.31.jar" scope="COMPILE">
+		<srcroot url="file://$M2_REPO$/org/slf4j/slf4j-log4j12/1.7.31/slf4j-log4j12-1.7.31-sources.jar"/>
+	</lib>
+	<lib name="log4j-1.2.17.jar" scope="COMPILE">
+		<srcroot url="file://$M2_REPO$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar"/>
+	</lib>
+	<lib name="junit-4.13.2.jar" scope="COMPILE">
+		<srcroot url="file://$M2_REPO$/junit/junit/4.13.2/junit-4.13.2-sources.jar"/>
+	</lib>
+	<lib name="hamcrest-core-1.3.jar" scope="COMPILE">
+		<srcroot url="file://$M2_REPO$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar"/>
+	</lib>
+	<lib name="gson-2.8.7.jar" scope="COMPILE">
+		<srcroot url="file://$M2_REPO$/com/google/code/gson/gson/2.8.7/gson-2.8.7-sources.jar"/>
+	</lib>
+	<lib name="Maven: org.slf4j:jcl-over-slf4j:1.7.31" scope="RUNTIME"/>
+	<lib name="Maven: org.slf4j:slf4j-log4j12:1.7.31" scope="RUNTIME"/>
+	<lib name="Maven: log4j:log4j:1.2.17" scope="RUNTIME"/>
+	<lib name="Maven: javax.servlet:servlet-api:2.5" scope="PROVIDED"/>
+	<lib name="Maven: javax.servlet.jsp:jsp-api:2.2" scope="PROVIDED"/>
+	<lib name="Maven: junit:junit:4.13.2" scope="TEST"/>
+	<lib name="Maven: org.hamcrest:hamcrest-core:1.3" scope="TEST"/>
+	<levels>
+		<level name="Spring-5.2.3.RELEASE" value="project"/>
+		<level name="Maven: org.springframework:spring-context:5.3.7" value="project"/>
+		<level name="Maven: org.springframework:spring-aop:5.3.7" value="project"/>
+		<level name="Maven: org.springframework:spring-beans:5.3.7" value="project"/>
+		<level name="Maven: org.springframework:spring-core:5.3.7" value="project"/>
+		<level name="Maven: org.springframework:spring-jcl:5.3.7" value="project"/>
+		<level name="Maven: org.springframework:spring-expression:5.3.7" value="project"/>
+		<level name="Maven: org.springframework:spring-webmvc:5.3.7" value="project"/>
+		<level name="Maven: org.springframework:spring-web:5.3.7" value="project"/>
+		<level name="Maven: org.aspectj:aspectjrt:1.9.6" value="project"/>
+		<level name="Maven: org.slf4j:slf4j-api:1.7.31" value="project"/>
+		<level name="Maven: org.slf4j:jcl-over-slf4j:1.7.31" value="project"/>
+		<level name="Maven: org.slf4j:slf4j-log4j12:1.7.31" value="project"/>
+		<level name="Maven: log4j:log4j:1.2.17" value="project"/>
+		<level name="Maven: javax.inject:javax.inject:1" value="project"/>
+		<level name="Maven: javax.servlet:servlet-api:2.5" value="project"/>
+		<level name="Maven: javax.servlet.jsp:jsp-api:2.2" value="project"/>
+		<level name="Maven: javax.servlet:jstl:1.2" value="project"/>
+		<level name="Maven: junit:junit:4.13.2" value="project"/>
+		<level name="Maven: org.hamcrest:hamcrest-core:1.3" value="project"/>
+		<level name="Maven: com.google.code.gson:gson:2.8.7" value="project"/>
+	</levels>
+</component>
